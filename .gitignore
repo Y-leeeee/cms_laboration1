@@ -1,0 +1,22 @@
+htdocs/
+# Ignore everything by default
+*
+
+# Allow wp-content and specific folders inside it
+!wp-content/
+!wp-content/themes/
+!wp-content/plugins/
+
+# Ignore everything else in wp-content except your custom files
+wp-content/*
+!wp-content/themes/name_laboration1/
+
+# Exclude common system or editor files
+*.log
+*.tmp
+*.swp
+*.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+node_modules/
