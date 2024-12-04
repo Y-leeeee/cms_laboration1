@@ -1,14 +1,11 @@
-htdocs/
 
-*
+/*
 
 
-!wp-content/
-!wp-content/themes/
-!wp-content/plugins/
+!wordpress/wp-content/
+!wordpress/wp-content/themes/
+!wordpress/wp-content/plugins/
 
-wp-content/themes/*
-!wp-content/themes/cms_laboration1/
 
 *.log
 *.tmp
